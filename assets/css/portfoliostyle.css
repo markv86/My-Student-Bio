@@ -33,7 +33,6 @@ h1  {
 
 }
 
-/* from w3schools.com temporary */
 * {
     box-sizing: border-box;
   }
@@ -59,39 +58,36 @@ h1  {
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+  
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 20px;
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
     float: left;
-    width: 25%;
+    width: 33%;
   }
   
-  /* Clear floats after rows */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Content */
   .content {
     background-color: white;
     padding: 10px;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Responsive layout */
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* Responsive layout */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
