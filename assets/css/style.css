@@ -1,0 +1,138 @@
+/* Selectors */
+
+
+body    {
+    background-color:#f25050;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 25px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1  {
+    padding: 20px   0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+}
+
+h2  {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+hr {
+    border: none;
+    border-top: 9px double #333;
+    color: #333;
+    height: 5px;
+}
+
+label   {
+    display: inline-block;
+}
+
+ul  {
+    list-style-type: none;
+}
+/* Class Selectors */
+
+
+.flex-container{
+    display: flex;
+}
+
+.header  {
+    background: #333;
+}
+
+.image {
+    padding: 10px;
+    width: 300px;
+}
+
+.bio {
+    font-size: 25px;
+    height: 500px;
+    padding: 10px;
+    margin-top: -2%;
+    width: 750px;
+    
+}
+
+.contact{
+    font-size: 25px;
+    padding: 10px;
+    width: 300px;
+} 
+
+.homeButton {
+    background: #333;
+    text-align: center;
+}
+
+.homeButtonLink {
+    padding: 20px   0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    float: left;
+    text-decoration: none;
+
+}
+
+.zoom   {   
+    color: black;
+    display: inline-block;
+    font-size:  30px;
+    margin-bottom: 40px;
+}
+
+.zoom:hover    {
+    transform: scale(2);
+    
+}
+
+/* Id Selectors */
+
+#contactList    {
+    padding: 0 0 0 37px;
+}
+
+#messageForm    {
+    margin: 0 0 0 150px;
+    padding: 100px;   
+}
+
+#inputNameBox   {
+    margin: 0 0 0 95px;
+    width: 400px;
+    height: 30px;
+}
+
+#inputEmailBox  {
+    width: 400px;
+    height: 30px;
+    margin: 15px 0 0 0;
+}
+
+#messageBox {
+    margin: 0 0 0 65px;
+    width: 400px;
+}
+
+#messageId  {
+    margin-left: 0px;
+}
+
+#submitBtn  {
+    margin-left: 230px;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+}

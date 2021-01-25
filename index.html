@@ -1,40 +1,46 @@
 <!DOCTYPE html>
-<html lang="en-us"></html>
-
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CSS Stylesheets with Relative Paths</title>
-
-    <link   rel="stylesheet" type="text/css" href="css/style.css">    
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Virostek</title>
+    <!-- Favicon -->
+    <link rel="icon" type="jpeg" href="./assets/images/hand+rock+roll+icon-1320183624583292376.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Student Bio</h1>
-    </header>
+    <div class="header nav">
+        <h1>My Student Bio</h1>
+    </div>
 
-    <div class="container">  
+    <div class="name">
+        <h2>Mark Virostek</h2>
+    </div>
+    <hr>
 
-        <section id="main-bio">
+    <div class="flex-container body"> 
+        <div>
+            <img class="image" src="./assets/images/IMG_0003.jpeg" alt="profile picture">
+        </div>
 
-            <h2>Mark Virostek</h2>
+        <div class="bio" id="main-bio">
+            <p>Hello, My name is Mark Virostek. I was born in Ohio and moved to Indiana after Highschool. I grew a large family as I worked in the electric utility business. Moved back to Ohio 8 years ago and became an electrician. Along the way we have brought 7 children into the world. After my wife passed away this summer, I hope this career will allow me to stay home with my kids for a few years.
+            <br>
+            I really enjoy working with my hands; construction, remodeling, and repairing anything. This is a big change for me. Wish me luck!!!
+            </p>
+        </div>      
     
-            <img id="bio-image"  src="images/IMG_0003.jpeg" alt="Mark Virostek">
-
-            <p>Hello, My name is Mark Virostek. I was born in Ohio and moved to Indiana after Highschool. I grew a large family as I worked in the electric utility business. Moved back to Ohio 8 years ago and became an electrician. Along the way we have brought 7 children into the world. After my wife passed away this summer, I hope this career will allow me to stay home with my kids for a few years.</p>I really enjoy working with my hands; construction, remodeling, and repairing anything. This is a big change for me. Wish me luck!!!
-        
-        </section>      
-    
-        <section id="contact-info">
-            <h2>Contact Info</h2>
-         <ul>
-             <li><strong>Email:</strong> <a href="#">markv86@hotmail.com</a></li>
-             <li><strong>GitHub:</strong> <a href="#">markv86</a></li>
-             <li><strong>Portfolio:</strong> <a href="#">doesn't exist yet</a></li>
-         </ul>
-        </section>
+        <div class="contact" id="contact-info">
+            <h2 id="contactList">Contact Info</h2>
+            <ul id="links">
+                <li><a class="zoom" href="https://www.linkedin.com/in/mark-virostek-2266291ba">LinkedIn</a></li>
+                <li><a class="zoom" href="https://github.com/markv86/">GitHub</a></li>
+                <li><a class="zoom" href="portfolio.html">Portfolio</a></li>
+                <li><a class="zoom" href="contact-me.html">Message Me</a></li>
+            </ul>
+        </div>    
     </div>
 </body>
 

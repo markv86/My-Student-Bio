@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav class="homeButton">
+      <a class="homeButtonLink" href="index.html">Home</a>
+      <h1>Contact Me</h1>
+    </nav>
+    
+    
+    <hr>
+      <div class="formGroup">
+        <form id="messageForm" action="mailto:" method="post"     enctype="text/plain">
+          <div>
+              <label>Your Name:</label>
+              <input type="text" class="formControl" id="inputNameBox"  name="Your Name">
+          </div>      
+                <br>
+          <div>  
+              <label>Your Email Address:</label>                
+              <input id="inputEmailBox" type="email" name="Your Email:">
+          </div>    
+                <br>
+          <div>     
+              <label id="messageId">Your Message:</label>
+              <textarea id="messageBox" name="Your Message:" cols="50" rows="10"></textarea>
+          </div>     
+                <br> 
+          <div>  
+              <input id="submitBtn" type="submit" name="">  
+          </div>        
+        </form>
+      </div>
+  </body>
+</html>
