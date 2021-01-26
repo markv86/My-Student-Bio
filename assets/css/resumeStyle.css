@@ -1,14 +1,13 @@
-/* navbar styling */
-
-nav    {
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: 25px;
-    line-height: 150%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+a   {
+    color: black;
 }
 
+br  {
+    content: "";
+    display: block;
+    margin: 5em;
+    font-size: 24%;
+}
 h1  {
     padding: 20px   0;
     margin: 0;
@@ -16,6 +15,21 @@ h1  {
     font-size: 28px;
     color: #eee;
     text-align: center;
+}
+
+embed {
+    width: 500px;
+    height: 600px;
+}
+
+/* navbar styling */
+nav    {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 25px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .homeButton {
@@ -64,7 +78,7 @@ h1  {
   
   .column {
     float: left;
-    width: 33%;
+    width: 100%;
   }
   
   .row:after {
@@ -76,8 +90,15 @@ h1  {
   .content {
     background-color: white;
     padding: 10px;
+    text-align: center;
   }
   
+/* Print Button */
+
+  /* #print-button {
+    display: none;
+  } */
+
   /* Responsive layout */
   
   @media screen and (max-width: 900px) {

@@ -1,5 +1,69 @@
 /* Selectors */
+a   {
+    color: black;
+    text-decoration: none;
+    }
 
+#emailMeAnimation   {    
+/* test for color change */
+    font-family: futura;
+    font-style: italic;
+    font-weight: bold;
+    -webkit-animation:colorchange 5s infinite alternate;
+    }
+
+@-webkit-keyframes colorchange {
+    0% { 
+      color: blue;
+}
+    
+    10% {    
+    color: #8e44ad;
+}
+      
+    20% {   
+    color: #1abc9c;
+}
+      
+    30% {
+    color: #d35400;
+}
+      
+    40% {
+    color: blue;
+}
+      
+    50% {    
+    color: #34495e;
+}
+      
+    60% {
+    color: blue;
+}
+      
+    70% {
+    color: #2980b9;
+
+}
+    80% {
+    color: #f1c40f;
+}
+      
+    90% {
+    color: #2980b9;
+}
+      
+    100% {
+    color: pink;
+}
+}
+
+a:hover {
+    color: black;
+    display: inline-block;
+    font-size:  50px;
+    margin-bottom: 40px;
+}
 
 body    {
     background-color:#f25050;
@@ -39,8 +103,8 @@ label   {
 ul  {
     list-style-type: none;
 }
-/* Class Selectors */
 
+/* Class Selectors */
 
 .flex-container{
     display: flex;
@@ -59,9 +123,9 @@ ul  {
     font-size: 25px;
     height: 500px;
     padding: 10px;
+    /* position: absolute; */
     margin-top: -2%;
     width: 750px;
-    
 }
 
 .contact{
@@ -83,7 +147,6 @@ ul  {
     color: #eee;
     float: left;
     text-decoration: none;
-
 }
 
 .zoom   {   
@@ -102,6 +165,7 @@ ul  {
 
 #contactList    {
     padding: 0 0 0 37px;
+    text-decoration: underline;
 }
 
 #messageForm    {
